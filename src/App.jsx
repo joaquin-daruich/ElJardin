@@ -38,10 +38,9 @@ const bulmaHabla = () => {
 }
 
   return (
-    <>
-
+   
     
-    <div className="contenedorDeLaPagina">
+    <>
       
     <div className='inicio'>
       <span>Te dejo un link de mediafire que te va a llevar a descargar un video, leyendo un poco la pagina te cuento un poco de que trata el video :) Tambien si queres hace click en Krillin y mira a 18 ;)  </span>
@@ -95,8 +94,8 @@ const bulmaHabla = () => {
 
 
       
-    </div>
-    </>
+    
+</>
   );
 }
 

@@ -18,11 +18,10 @@ body, html {
   padding: 0;
   width: 100%;
   height: 100%;
-  overflow-x: hidden;
 }
 
 /* Asegurarnos de que el contenedor de React ocupe toda la pantalla */
-#root {
+/* #root {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -33,7 +32,7 @@ body, html {
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-}
+} */
 
 /* Restablecer estilos predeterminados de Blogger */
 .widget-content {
@@ -71,7 +70,6 @@ a {
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
-  overflow-x: hidden;
 }
 
 
@@ -163,7 +161,7 @@ a {
   justify-content: center;
   align-items: center;
   width: 68%;
-  z-index: 20;
+  z-index: 24;
   
 }
 

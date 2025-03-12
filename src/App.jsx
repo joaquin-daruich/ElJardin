@@ -62,7 +62,7 @@ const bulmaHabla = () => {
 
       <div className='titulos'>
       <h1 className='titulo1'>Androide Numero 18 de Dragon Ball Z </h1>
-      <img className='androide-señalando' src="/señalar.png" alt="El Jardin Del H Twitter/X/" />
+      <img className='androide-señalando' src="https://eljardindelh.netlify.app/se%C3%B1alar.png" alt="El Jardin Del H Twitter/X/" />
       <h2 className='titulo2'>Lo que ves a la  izquierda de todo es un FanArt de numero 18, pero si tocas a Krillin puede que tenga un secreto...</h2>
       
       </div>

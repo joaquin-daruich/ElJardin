@@ -111,21 +111,21 @@ a {
 .titulo1 {
   width: 28%;
   font-size: 22px;
+  font-family: "Almendra", serif;
+  font-weight: 900;
+  font-style: italic;
+  background-image: linear-gradient(to left, #fff236, #fff019, #fff129);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 0 20px #ff99cc, 0 0 30px #ffccff, 0 0 40px #99ccff;
+  animation: twinkle 1.5s infinite alternate;
 }
 
 .androide-señalando {
 
-    width: 200px !important;
-    height: auto !important;
-    min-width: 200px !important;
-    min-height: 100px !important;
-    position: relative !important;
-    display: block !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-    border: 5px solid rgb(255, 72, 0) !important;
-    visibility: visible !important;
-    z-index: 9999999 !important;
+    width: 22% ;
+    z-index: 22;
   
 }
 
@@ -133,14 +133,15 @@ a {
   z-index: 18;
   width: 26%;
   font-family: "Almendra", serif;
-  font-weight: 700;
+  font-weight: 900;
   font-style: italic;
-  background-image: linear-gradient(to left, #fff599, #f6ffdf, #e4ff6d);
+  background-image: linear-gradient(to left, #fff236, #fff019, #fff129);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
   text-shadow: 0 0 20px #ff99cc, 0 0 30px #ffccff, 0 0 40px #99ccff;
   animation: twinkle 1.5s infinite alternate;
+  
 }
 
 
@@ -170,8 +171,18 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: gold;;
   width: 68%;
   z-index: 24;
+  font-family: "Almendra", serif;
+  font-weight: 900;
+  font-style: italic;
+  background-image: linear-gradient(to left, #fff236, #fff019, #fff129);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 0 20px #ff99cc, 0 0 30px #ffccff, 0 0 40px #99ccff;
+  animation: twinkle 1.5s infinite alternate;
   
 }
 
@@ -181,7 +192,7 @@ a {
   font-family: "Almendra", serif;
   font-weight: 900;
   font-style: italic;
-  background-image: linear-gradient(to left, #fff67f, #e6fc6e, #fff781);
+  background-image: linear-gradient(to left, #fff236, #fff019, #fff129);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -209,15 +220,12 @@ z-index: 22;
 
 .contenedorDeParrafo3 {
   max-width: 100%;
+  font-size: 22px;
   z-index: 22;
-  color: aliceblue;
-  font-size: 42px;
-  font-weight: 900;
-  max-width: 100%;
   font-family: "Almendra", serif;
   font-weight: 900;
   font-style: italic;
-  background-image: linear-gradient(to left, #fff67f, #e6fc6e, #fff781);
+  background-image: linear-gradient(to left, #fff236, #fff019, #fff129);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;

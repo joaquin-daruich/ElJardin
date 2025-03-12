@@ -3,7 +3,9 @@ import './App.css'
 import { Link } from 'react-router-dom';
 
 
+
   const App =  () => {
+    
 const [androide , setAndroide] = useState('https://eljardindelh.netlify.app/es%20esta.png')
 const [krillin , setKrillin] = useState('https://eljardindelh.netlify.app/krillin-quieto.gif')
 const [bulma2Image, setBulma2Image] = useState('https://eljardindelh.netlify.app/bulma2.png');
@@ -44,6 +46,20 @@ useEffect(() => {
     publicidad.style.opacity = "1";
   }
 }, []);
+
+const observer = new MutationObserver((mutations) => {
+  mutations.forEach((mutation) => {
+      const img = document.querySelector(".publicidad");
+      if (img && getComputedStyle(img).display === "none") {
+          console.log("Alguien ocultó la imagen. Restaurándola...");
+          img.style.display = "block";
+      }
+  });
+});
+
+observer.observe(document.body, { attributes: true, subtree: true, attributeFilter: ["style"] });
+
+
 
   return (
    

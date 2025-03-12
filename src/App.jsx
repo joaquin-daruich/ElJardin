@@ -35,29 +35,13 @@ const explotarAKrillin = () => {
   }, 2800); 
 }
 const bulmaHabla = () => {
-  const audio = new Audio('/final.mp3'); 
+  const audio = new Audio('https://eljardindelh.netlify.app/final.mp3'); 
   audio.play();
 }
 
-useEffect(() => {
-  const publicidad = document.querySelector(".publicidad");
-  if (publicidad) {
-    publicidad.style.display = "block";
-    publicidad.style.opacity = "1";
-  }
-}, []);
 
-const observer = new MutationObserver((mutations) => {
-  mutations.forEach((mutation) => {
-      const img = document.querySelector(".publicidad");
-      if (img && getComputedStyle(img).display === "none") {
-          console.log("Alguien ocultó la imagen. Restaurándola...");
-          img.style.display = "block";
-      }
-  });
-});
 
-observer.observe(document.body, { attributes: true, subtree: true, attributeFilter: ["style"] });
+
 
 
 
@@ -76,7 +60,7 @@ observer.observe(document.body, { attributes: true, subtree: true, attributeFilt
 
       <div className='titulos'>
       <h1 className='titulo1'>Androide Numero 18 de Dragon Ball Z </h1>
-      <img className='publicidad' src="https://eljardindelh.netlify.app/seguime.png" alt="El Jardin Del H Twitter/X/" />
+      <img className='publicidad' src="/come.jpg" alt="El Jardin Del H Twitter/X/" />
       <h2 className='titulo2'>Lo que ves a la  izquierda de todo es un FanArt de numero 18, pero si tocas a Krillin puede que tenga un secreto...</h2>
       
       </div>

@@ -115,11 +115,11 @@ a {
 
 .publicidad {
   width: 28%;
-  z-index: 28;
-
-    display: block !important;
-    opacity: 1 !important;
-    z-index: 9999 !important;
+  z-index: 9999 !important;
+  position: relative !important;
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
   
 }
 

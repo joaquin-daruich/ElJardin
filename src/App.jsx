@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
   const App =  () => {
 const [androide , setAndroide] = useState('https://eljardindelh.netlify.app/es%20esta.png')
 const [krillin , setKrillin] = useState('https://eljardindelh.netlify.app/krillin-quieto.gif')
-const [bulma2Image, setBulma2Image] = useState('bulma2');
+const [bulma2Image, setBulma2Image] = useState('bulma2.png');
 useEffect(() => {
   const interval = setInterval(() => {
     // Cambiar la imagen entre dos imágenes diferentes
@@ -80,7 +80,7 @@ const bulmaHabla = () => {
       <div className='contenedorDeParrafo3'>
       <p>Hace Click en Bulma puede que pase algo ;)</p>
       <div className='contenedorDeParrafo4'>
-      <img className='bulma2' src='bulma2.png'  alt="Bulma FanArt" ></img>
+      <img className='bulma2' src={bulma2Image}  alt="Bulma FanArt " ></img>
       <p>Bueno hasta aqui llegamos, espero disfruten mucho el video!! Nos vemos y suerte!!</p>
       
       </div>

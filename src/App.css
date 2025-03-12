@@ -117,6 +117,9 @@ a {
   width: 28%;
   z-index: 28;
 
+    display: block !important;
+    opacity: 1 !important;
+  
 }
 
 .titulo2 {

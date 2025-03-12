@@ -75,6 +75,7 @@ const bulmaHabla = () => {
 
 
       <div className='contenedorDeParrafos'>
+      <div className='contenedorDeParrafo2'>
       <p className='parrafo'>Bueno primero si te preguntas acerca del video que podes descargar arriba, tengo un adelanto del video en nuestro X, que es: "kushruchix" , estamos como "El Jardin Del H"</p>
       <p className='parrafo'>Pero.. De que trata el video??</p>
       <p className='parrafo'>El Video como quizas viste en la preview que subi a twitter, cuenta la aventura que tuvieron Bulma y Androide 18, (las voces del video estan en latino!) fueron de compras pero tuvieron un problema...</p>
@@ -87,6 +88,7 @@ const bulmaHabla = () => {
       <p className='parrafo'>Pero bueno... obviamente el escenario no era para nada favorable para estas 2, el interior de la casa era de lo mas extraño y sospechoso, parecia como una especie de calabozo.. </p>
       <p className='parrafo'>Y en medio de la sorpresa, le apagan la luz, le cierran la puerta, y bueno el resto de la historia la podes ver en el video... :) </p>
       <img onClick={bulmaHabla} className='bulma' src="https://eljardindelh.netlify.app/bulma.png" alt="Bulma Dragon Ball Z" />
+      </div>
       <div className='contenedorDeParrafo3'>
       <p>Hace Click en Bulma puede que pase algo ;)</p>
       <div className='contenedorDeParrafo4'>

@@ -171,7 +171,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: gold;;
+  color: black;
   width: 68%;
   z-index: 24;
   font-family: "Almendra", serif;
@@ -216,6 +216,35 @@ z-index: 22;
   height: 50vh;
   width: 60vh;
 
+}
+
+.contenedorDeParrafo2 {
+
+  color: #FFD700; /* Amarillo dorado */
+  font-weight: bold;
+  text-shadow: 3px 3px 12px rgba(0, 0, 0, 0.8), 
+               0px 0px 6px rgba(0, 0, 0, 0.5); /* Más difuminado y fuerte */
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)); /* Un leve degradado */
+  padding: 5px 10px;
+  border-radius: 5px; /* Bordes más suaves */
+  display: inline-block; 
+
+
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(10px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.contenedorDeParrafo2 {
+  animation: fadeIn 0.5s ease-in-out;
 }
 
 .contenedorDeParrafo3 {

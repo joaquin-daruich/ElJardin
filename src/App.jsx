@@ -37,6 +37,14 @@ const bulmaHabla = () => {
   audio.play();
 }
 
+useEffect(() => {
+  const publicidad = document.querySelector(".publicidad");
+  if (publicidad) {
+    publicidad.style.display = "block";
+    publicidad.style.opacity = "1";
+  }
+}, []);
+
   return (
    
     

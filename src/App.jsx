@@ -20,17 +20,9 @@ useEffect(() => {
   // Limpiar el intervalo cuando el componente se desmonte
   return () => clearInterval(interval);
 }, []);
-const prueba = window.onload = function() {
-  
-  let publicidad = document.querySelector(".publicidad");
-  if (publicidad) {
-      publicidad.style.setProperty("display", "block", "important");
-      console.log("Elemento modificado:", publicidad);
-  } else {
-      console.log("No se encontró el elemento .publicidad");
-  }
-};
-prueba()
+
+
+
 const sacarManos = () => {
   setAndroide('https://eljardindelh.netlify.app/cambio.png')
   setTimeout(() => {
@@ -70,7 +62,7 @@ const bulmaHabla = () => {
 
       <div className='titulos'>
       <h1 className='titulo1'>Androide Numero 18 de Dragon Ball Z </h1>
-      <img className='publicidad' src="https://eljardindelh.netlify.app/seguime.png" alt="El Jardin Del H Twitter/X/" />
+      <img className='androide-señalando' src="/señalar.png" alt="El Jardin Del H Twitter/X/" />
       <h2 className='titulo2'>Lo que ves a la  izquierda de todo es un FanArt de numero 18, pero si tocas a Krillin puede que tenga un secreto...</h2>
       
       </div>

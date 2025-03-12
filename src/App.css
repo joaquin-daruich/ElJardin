@@ -127,6 +127,7 @@ a {
     display: block !important;
     opacity: 1 !important;
     visibility: visible !important;
+    z-index: 9999999 !important;
   
 }
 

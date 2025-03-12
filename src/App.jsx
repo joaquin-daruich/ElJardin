@@ -48,7 +48,7 @@ const bulmaHabla = () => {
       </Link>}
       <span>               No tiene publicidad ni nada Link directo y encima audio latino! </span>
     </div>
-    <img className='ElJardinDelH' src="/https://eljardindelh.netlify.app/capaz.jpg" alt="El Jardin Del H" /> 
+    <img className='ElJardinDelH' src="https://eljardindelh.netlify.app/capaz.jpg" alt="El Jardin Del H" />
 
       <div className='titulos'>
       <h1 className='titulo1'>Androide Numero 18 de Dragon Ball Z </h1>

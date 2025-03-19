@@ -6,61 +6,8 @@
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Moon+Dance&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 
-
-/* Eliminar márgenes y paddings por defecto */
-body, html {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-}
-
-/* Asegurarnos de que el contenedor de React ocupe toda la pantalla */
-/* #root {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
-} */
-
-/* Restablecer estilos predeterminados de Blogger */
-.widget-content {
-  padding: 0;
-  margin: 0;
-}
-
-#content {
-  padding: 0;
-  margin: 0;
-}
-
-.page {
-  margin: 0;
-}
-
-div {
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
 
 
 
@@ -359,6 +306,7 @@ z-index: 22;
   }
 }
 
+
 @media screen and (max-width: 700px) {
   .titulo2{
     font-size: 18px;
@@ -416,7 +364,7 @@ z-index: 22;
 
 @media screen and  (max-width: 360px) {
   .ElJardinDelH{
-   height: 760%;
+   height: 960%;
   }
  .titulo2{
    font-size: 11px;
@@ -435,4 +383,19 @@ z-index: 22;
   
  }
 
+
+}
+
+.infierno{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+.ElVideo{
+
+  position: relative;
+  top: 20vh;
+  max-width: 100%;
 }

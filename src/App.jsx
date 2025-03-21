@@ -16,7 +16,7 @@ import Inicio from './Inicio';
     
     <>
       <Routes>
-      <Route path='/' element={<Inicio></Inicio>}/>
+      <Route path='/:slug' element={<Inicio></Inicio>}/>
       </Routes>
 
       

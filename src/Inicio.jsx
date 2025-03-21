@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './App.css'
 import { Link, Route, Routes } from 'react-router-dom';
-import Video from './Video';
+
 
 const Inicio = () => {
      
@@ -52,8 +52,8 @@ const bulmaHabla = () => {
     <>
 
     <div className='inicio'>
-      <span>Te dejo un link de mediafire que te va a llevar a descargar un video, leyendo un poco la pagina te cuento un poco de que trata el video :) Tambien si queres hace click en Krillin y mira a 18 ;)  </span>
-      {<Link to={'/video'}>👉 Click aquí para ver el video 
+      <span>Te dejo un link para ver el video!, leyendo un poco la pagina te cuento un poco de que trata el video :) Tambien si queres hace click en Krillin y mira a 18 ;)  </span>
+      {<Link to={'https://cuty.io/sJxFUl'}>👉 Click aquí para ver el video 
       </Link>}
       <span>                (audio latino!) </span>
     </div>
